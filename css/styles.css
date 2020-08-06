@@ -228,6 +228,19 @@ html, body {
   border-color: #ff0000;
 }
 
+.btn-yellow {
+  color: #000;
+  background-color: #fff200;
+  border-color: #fff200;
+}
+
+.btn-yellow:hover {
+  color: #000;
+  background-color: #dfd403;
+  border-color: #dfd403;
+}
+
+
 .btn-custom-red:hover{
   background-color: #ee0606;
   color: #fff;
@@ -416,3 +429,7 @@ label{
   background-color: #3126ff !important;
   color: #fff;
 } 
+
+.modal-body.top-blue-border{
+  border-top: 20px solid #3126ff;
+}
