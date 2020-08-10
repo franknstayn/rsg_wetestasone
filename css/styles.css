@@ -6,7 +6,7 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 #mainNav {
@@ -51,7 +51,7 @@ html, body {
   }
   #mainNav .nav-link {
     transition: none;
-    padding: 2rem 1.5rem;
+    padding: 0px 1.5rem;
     /* color: rgba(255, 255, 255, 0.5); */
     color: #000;
   }
@@ -172,7 +172,7 @@ html, body {
   width: 100%;
   background-color: #e8eaff;
   overflow: auto;
-  margin-top: 90px;
+  /* margin-top: 50px; */
   position: absolute;
   border-bottom: 4px solid #091ee1;
 }
@@ -375,7 +375,7 @@ label{
 }
 
 .input-group-prepend{
-  height: 31px;
+  height: 28.1px;
 }
 
 .label-required{
