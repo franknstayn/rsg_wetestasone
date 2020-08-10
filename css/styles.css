@@ -218,6 +218,24 @@ html, body {
     width: 100%;
     text-align: center;
   }
+
+  .left-side-content{
+    border-right: unset !important;
+  }
+
+  .calendar-container, .timeslot-container{
+    padding: 0px !important;
+  }
+
+  .timeslot-container{
+    padding-bottom: 3rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .time-label{
+    text-align: center;
+    font-size: 1rem;
+  }
 }
 
 
