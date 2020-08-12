@@ -451,3 +451,12 @@ label{
 .modal-body.top-blue-border{
   border-top: 20px solid #3126ff;
 }
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all 0.6s ease-in-out;
+}
