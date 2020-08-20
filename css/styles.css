@@ -146,6 +146,10 @@ html, body {
   width: 12rem;
 }
 
+img.logo{
+  height: 70px;
+}
+
 .masthead h1 > span {
   color: #ff0000;
 }
