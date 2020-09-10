@@ -27,11 +27,6 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css"
-      rel="stylesheet"
-    />
-
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body id="page-top">
@@ -79,10 +74,10 @@
       </div>
     </nav>
     <div class="steps-menu">
-      <a href="#">1. Select Location</a>
+      <a href="#" class="active">1. Select Location</a>
       <a href="#">2. Select Type of Test</a>
       <a href="#">3. Select Payment Option</a>
-      <a href="#" class="active">4. Select Appointment Date</a>
+      <a href="#">4. Select Appointment Date</a>
       <a href="#">5. Fill-up eCIF</a>
       <a href="#">6. Summary</a>
       <a href="#">7. Payment</a>
@@ -93,90 +88,54 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="step-title">
-              <h2>Select Appointment Date</h2>
+              <h2>select swabbing location</h2>
             </div>
           </div>
         </div>
-
         <div class="row">
-          <div class="col-lg-10 offset-lg-1 py-3">
-            <div class="card">
+          <div class="col-lg-4 py-3">
+            <div class="card w-80 mx-auto">
+              <div class="p-3 mx-auto">
+                <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6368199887233!2d121.02814091477025!3d14.562749381907507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9aa7b31f335%3A0x711fedd19a853957!2sFerros%20Bel%20Air%20Tower%2C%2030%20Polaris%2C%20Makati%2C%201210%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1596594325633!5m2!1sen!2sph" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
               <div class="card-body">
-                <div class="row h-100">
-                  
-                  <div class="col-md-6 left-side-content">
-                    <div class="text-center calendar-container">
-                      <div id="datepicker" data-date="08/05/2020"></div>
-                      <div class="pt-3 form-row">
-                        <div class="col-sm-6">
-                          <div class="available">Available</div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="not-available">Not Yet Available</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="timeslot-container">
-                      <div class="time-label">
-                        Time
-                      </div>
-
-                      <!-- <div class="timeslot-pad"> -->
-                        <table class="w-100">
-                          <tr>
-                            <td>
-                              <input type="radio" name="timeSched" />
-                              10:00 - 11:00
-                            </td>
-                            <td class="text-right">
-                              <div class="available-color">Available</div>
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td>
-                              <input type="radio" name="timeSched" />
-                              10:00 - 11:00
-                            </td>
-                            <td class="text-right">
-                              <div class="available-color">Available</div>
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td>
-                              <input type="radio" name="timeSched" />
-                              10:00 - 11:00
-                            </td>
-                            <td class="text-right">
-                              <div class="available-color">Available</div>
-                            </td>
-                          </tr>
-
-                          <tr>
-                            <td>
-                              <input type="radio" name="timeSched" />
-                              10:00 - 11:00
-                            </td>
-                            <td class="text-right">
-                              <div class="available-color">Available</div>
-                            </td>
-                          </tr>
-                        </table>
-                      <!-- </div> -->
-                    </div>
-                    <div class="next-button-container">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-custom-yellow float-right"
-                      >
-                        next
-                      </button>
-                    </div>
-                  </div>
+                <div>
+                  <button type="button" class="btn btn-outline-custom-blue btn-block rounded-0">makati</button>
+                </div>
+                <div class="text-center text-uppercase py-3">
+                  #30 Polaris St., Bel Air, Brgy Poblacion, Makati City
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 py-3">
+            <div class="card w-80 mx-auto">
+              <div class="p-3  mx-auto">
+                <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6368199887233!2d121.02814091477025!3d14.562749381907507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9aa7b31f335%3A0x711fedd19a853957!2sFerros%20Bel%20Air%20Tower%2C%2030%20Polaris%2C%20Makati%2C%201210%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1596594325633!5m2!1sen!2sph" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+              <div class="card-body">
+                <div>
+                  <button type="button" class="btn btn-outline-custom-blue btn-block rounded-0">BGC</button>
+                </div>
+                <div class="text-center text-uppercase py-3">
+                  #30 Polaris St., Bel Air, Brgy Poblacion, Makati City
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 py-3">
+            <div class="card w-80 mx-auto">
+              <div class="p-3 mx-auto">
+                <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.6368199887233!2d121.02814091477025!3d14.562749381907507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9aa7b31f335%3A0x711fedd19a853957!2sFerros%20Bel%20Air%20Tower%2C%2030%20Polaris%2C%20Makati%2C%201210%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1596594325633!5m2!1sen!2sph" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+              <div class="card-body">
+                <div>
+                  <button type="button" class="btn btn-outline-custom-blue btn-block rounded-0">Clark</button>
+                </div>
+                <div class="text-center text-uppercase py-3">
+                  #30 Polaris St., Bel Air, Brgy Poblacion, Makati City
                 </div>
               </div>
             </div>
@@ -191,16 +150,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- datepicker -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-
-    <script>
-      $("#datepicker").datepicker();
-      $("#datepicker").on("changeDate", function () {
-        console.log($("#datepicker").datepicker("getFormattedDate"));
-      });
-    </script>
   </body>
 </html>

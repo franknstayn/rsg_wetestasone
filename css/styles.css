@@ -188,7 +188,7 @@ img.logo{
   color: #000000c1;
   text-decoration: none;
   font-size: 13px;
-  width: 14.2%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  width: 12.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   text-align: center; /* If you want the text to be centered */
   padding-top: 20px;
   padding-bottom: 20px;
@@ -339,6 +339,15 @@ img.logo{
   position: relative;
 }
 
+.po-container1{
+  /* min-height: 200px; */
+  height: inherit;
+  /* display: flex; */
+  justify-content: center;  
+  align-items: center;
+  position: relative;
+}
+
 .selected-payament-option {
   color: #001bff;
   font-size: 20px;
@@ -463,4 +472,13 @@ label{
   width: 100%;
   z-index: 999;
   transition: all 0.6s ease-in-out;
+}
+
+.price-test{
+  font-weight: bold;
+}
+
+.card-body.zero{
+  padding-top: 0px !important;
+  margin-top: -20px;
 }
