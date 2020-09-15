@@ -295,6 +295,12 @@ img.sub-logo {
   padding: 0px;
 }
 
+.btn-custom-blue1 {
+  color: #fff;
+  background-color: #3126ff;
+  border-color: #3126ff;
+}
+
 .btn-custom-yellow {
   box-shadow: none !important;
   border: 2px solid #fff200 !important;
@@ -315,6 +321,12 @@ img.sub-logo {
   color: #fff;
   background-color: #443bfd;
   font-weight: 600;
+}
+
+.btn-custom-blue1:hover {
+  color: #fff;
+  background-color: #443bfd;
+  /* font-weight: 600; */
 }
 
 .btn-outline-custom-blue:hover {
