@@ -254,6 +254,10 @@ img.sub-logo {
     text-align: center;
     font-size: 1rem;
   }
+
+  .payment-logos{
+    margin-top: 0px !important;
+  }
 }
 
 .btn-custom-red {
@@ -443,7 +447,8 @@ label {
 }
 
 .payment-logos {
-  height: 60px;
+  height: 50px;
+  margin-top: -10px;
 }
 
 .fw-500 {
