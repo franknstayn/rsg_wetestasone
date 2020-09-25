@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"/>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>We Test As one</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css"
+      rel="stylesheet"
+    />
+
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand position-relative" href="#page-top">
+          <!-- <span class="we">We</span>
+          <span class="test">Test</span>
+          <span class="as">As</span>
+          <span class="one">One</span> -->
+          <img src="./assets/img/antigenph.png" class="img-fluid logo" alt="logo">
+          <img src="./assets/img/sofia2.png" class="img-fluid sub-logo" alt="sofia2">
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#learn-more"
+                >Learn More</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#abount-us"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact-us"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="menu-flex">
+      <div class="item">
+        <a href="">1. Select Destination</a>
+      </div>
+      <div class="item">
+        <a href="">2. Select Type of Test</a>
+      </div>
+      <div class="item active">
+        <a href="">3. Select Appointment Date</a>
+      </div>
+      <div class="item">
+        <a href="">4. Summary</a>
+      </div>
+      <div class="item">
+        <a href="">5. Payment Method</a>
+      </div>
+      <div class="item">
+        <a href="">6. Confirmation</a>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="step-title">
+              <h2>Select Appointment Date</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1 py-3">
+            <div class="card">
+              <div class="card-body">
+                <div class="row h-100">
+                  
+                  <div class="col-md-6 left-side-content">
+                    <div class="text-center calendar-container">
+                      <div id="datepicker" data-date="08/05/2020"></div>
+                      <div class="pt-3 form-row">
+                        <div class="col-sm-6">
+                          <div class="available">Available</div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="not-available">Not Yet Available</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="timeslot-container">
+                      <div class="time-label">
+                        Time
+                      </div>
+
+                      <!-- <div class="timeslot-pad"> -->
+                        <table class="w-100">
+                          <tr>
+                            <td>
+                              <input type="radio" name="timeSched" />
+                              10:00 - 11:00
+                            </td>
+                            <td class="text-right">
+                              <div class="available-color">Available</div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <input type="radio" name="timeSched" />
+                              10:00 - 11:00
+                            </td>
+                            <td class="text-right">
+                              <div class="available-color">Available</div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <input type="radio" name="timeSched" />
+                              10:00 - 11:00
+                            </td>
+                            <td class="text-right">
+                              <div class="available-color">Available</div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <input type="radio" name="timeSched" />
+                              10:00 - 11:00
+                            </td>
+                            <td class="text-right">
+                              <div class="available-color">Available</div>
+                            </td>
+                          </tr>
+                        </table>
+                      <!-- </div> -->
+                    </div>
+                    <div class="next-button-container">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-custom-yellow float-right"
+                      >
+                        next
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <!-- <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Your Website 2020</div></footer> -->
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- datepicker -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+    <script>
+      $("#datepicker").datepicker();
+      $("#datepicker").on("changeDate", function () {
+        console.log($("#datepicker").datepicker("getFormattedDate"));
+      });
+    </script>
+  </body>
+</html>
