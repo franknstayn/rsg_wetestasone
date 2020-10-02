@@ -91,85 +91,6 @@
             <div class="card">
               <div class="card-body">
                 <div class="form-row">
-                  <div class="form-group col-lg-6">
-                    <label>
-                      Phone Number
-                    </label>
-                    <div class="input-group">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text">+63</span>
-                      </div>
-                      <input type="text" class="form-control form-control-sm" >
-                      <!-- is-invalid -->
-                      <!-- <div class="invalid-feedback">Phone Number is required</div> -->
-                    </div>
-                    <small class="muted">Country code(63) Area code(2)</small>
-                  </div>
-                  <div class="form-group col-lg-6">
-                    <label>
-                      Mobile Number
-                      <span class="label-required">*</span>
-                    </label>
-                    <div class="input-group">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text">+63</span>
-                      </div>
-                      <input type="text" inputmode="numeric" pattern="[0-9]*" class="form-control form-control-sm" >
-                      <!-- is-invalid -->
-                      <!-- <div class="invalid-feedback">Phone Number is required</div> -->
-                    </div>
-                    <small class="muted">Country code(63) Network code(9)</small>
-                  </div>
-                  
-                </div>
-
-                <div class="form-row">
-                  <div class="form-group col-lg-4 order-2">
-                    <label>
-                      Civil Status
-                      <span class="label-required">*</span>
-                    </label>
-                    <select
-                      class="form-control form-control-sm"
-                    >
-                      <option value>- SELECT CIVIL STATUS -</option>
-                      <option value="SINGLE">SINGLE</option>
-                      <option value="MARRIED">MARRIED</option>
-                      <option value="DIVORCED">DIVORCED</option>
-                      <option value="WIDOWED">WIDOWED</option>
-                      <option value="ANNULLED">ANNULLED</option>
-                      <option value="LEGALLY SEPERATED">LEGALLY SEPERATED</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-lg-4">
-                    <label>
-                      Email Address
-                      <span class="label-required">*</span>
-                    </label>
-                    <input
-                      type="email"
-                      class="form-control form-control-sm"
-                      placeholder="email@domain.com"
-                    />
-                     <!-- is-invalid -->
-                    <!-- <div class="invalid-feedback">Email Address is required</div> -->
-                  </div>
-                  <div class="form-group col-lg-4">
-                    <label>
-                      Confirm Email Address
-                      <span class="label-required">*</span>
-                    </label>
-                    <input
-                      type="email"
-                      class="form-control form-control-sm"
-                      placeholder="email@domain.com"
-                    />
-                     <!-- is-invalid -->
-                    <!-- <div class="invalid-feedback">Email Address is required</div> -->
-                  </div>
-                </div>
-
-                <div class="form-row">
                   <div class="form-group col-lg-4">
                     <label>
                       Last Name
@@ -210,15 +131,89 @@
                     <!-- <div class="invalid-feedback">required</div> -->
                   </div>
                 </div>
+                <div class="form-row">
+                  <!-- <div class="form-group col-lg-6">
+                    <label>
+                      Phone Number
+                    </label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">+63</span>
+                      </div>
+                      <input type="text" class="form-control form-control-sm" >
+                    </div>
+                    <small class="muted">Country code(63) Area code(2)</small>
+                  </div> -->
+                  <div class="form-group col-lg-4">
+                    <label>
+                      Email Address
+                      <span class="label-required">*</span>
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control form-control-sm"
+                      placeholder="email@domain.com"
+                    />
+                     <!-- is-invalid -->
+                    <!-- <div class="invalid-feedback">Email Address is required</div> -->
+                  </div>
+                  <div class="form-group col-lg-4">
+                    <label>
+                      Confirm Email Address
+                      <span class="label-required">*</span>
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control form-control-sm"
+                      placeholder="email@domain.com"
+                    />
+                     <!-- is-invalid -->
+                    <!-- <div class="invalid-feedback">Email Address is required</div> -->
+                  </div>
+                  <div class="form-group col-lg-4">
+                    <label>
+                      Mobile Number
+                      <span class="label-required">*</span>
+                    </label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">+63</span>
+                      </div>
+                      <input type="text" inputmode="numeric" pattern="[0-9]*" class="form-control form-control-sm" >
+                      <!-- is-invalid -->
+                      <!-- <div class="invalid-feedback">Phone Number is required</div> -->
+                    </div>
+                    <small class="muted">Country code(63) Network code(9)</small>
+                  </div>
+                  
+                </div>
 
                 <div class="form-row">
-                  <div class="col-lg-4">
+                  <div class="form-group col-lg-3">
+                    <label>
+                      Civil Status
+                      <span class="label-required">*</span>
+                    </label>
+                    <select
+                      class="form-control form-control-sm"
+                    >
+                      <option value>- SELECT CIVIL STATUS -</option>
+                      <option value="SINGLE">SINGLE</option>
+                      <option value="MARRIED">MARRIED</option>
+                      <option value="DIVORCED">DIVORCED</option>
+                      <option value="WIDOWED">WIDOWED</option>
+                      <option value="ANNULLED">ANNULLED</option>
+                      <option value="LEGALLY SEPERATED">LEGALLY SEPERATED</option>
+                    </select>
+                  </div>
+                
+                  <div class="col-lg-5">
                     <label>
                       Date of Birth
                       <span class="label-required">*</span>
                     </label>
                       <div class="form-row">
-                        <div class="form-group col-lg-4">
+                        <div class="form-group col-4">
                            <select name="month" class="form-control form-control-sm">
                              <option value="0">MM</option>
                              <option value="1">January</option>
@@ -237,7 +232,7 @@
                            <!-- is-invalid -->
                           <!-- <div class="invalid-feedback">required</div> -->
                         </div>
-                        <div class="form-group col-lg-3">
+                        <div class="form-group col-3">
                           <select name="date" class="form-control form-control-sm">
                             <option value="0">DD</option>
                             <option value="1">1</option>
@@ -257,7 +252,7 @@
                          <!-- <div class="invalid-feedback">required</div> -->
                         </div>
 
-                        <div class="form-group col-lg-5">
+                        <div class="form-group col-5">
                           <select name="date" class="form-control form-control-sm">
                             <option value="0">YYYY</option>
                             <option value="1">2020</option>
@@ -288,7 +283,9 @@
                         </div>
                       </div>
                   </div>
+                </div>
 
+                <div class="form-row">
                   <div class="form-group col-lg-4">
                     <label>
                       Nationality
@@ -302,9 +299,6 @@
                      <!-- is-invalid -->
                     <!-- <div class="invalid-feedback">required</div> -->
                   </div>
-                </div>
-
-                <div class="form-row">
                   <div class="form-group col-lg-4">
                     <label>
                       Region
@@ -330,8 +324,10 @@
                       <option value="NRC">NRC</option>
                     </select>
                   </div>
+                </div>
 
-                  <div class="form-group col-lg-4">
+                <div class="form-row">
+                  <div class="form-group col-lg-3">
                     <label>
                       City/Municipality
                       <span class="label-required">*</span>
@@ -343,10 +339,7 @@
                       <option value="Philippines">Philippines</option>
                     </select>
                   </div>
-                </div>
-
-                <div class="form-row">
-                  <div class="form-group col-lg-4">
+                  <div class="form-group col-lg-3">
                     <label>
                       Barangay
                       <span class="label-required">*</span>
@@ -358,8 +351,7 @@
                       <option value="Pinagkaisahan">Pinagkaisahan</option>
                     </select>
                   </div>
-
-                  <div class="form-group col-lg-8">
+                  <div class="form-group col-lg-6">
                     <label>
                       House No./Lot/Block, Street Name
                       <span class="label-required">*</span>
@@ -369,7 +361,7 @@
                 </div>
 
                 <div class="row">
-                  <div class="form-group col-offset-3 col-lg-4">
+                  <div class="form-group col-lg-4">
                     <label>
                       Take a Selfie
                       <span class="label-required">*</span>
