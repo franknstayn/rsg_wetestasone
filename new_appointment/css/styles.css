@@ -165,8 +165,8 @@ body {
 }
 
 img.logo {
-  /* height: 70px; */
-  height: 30px;
+  height: 80px;
+  /* height: 30px; */
 }
 
 img.sub-logo {
@@ -203,7 +203,7 @@ img.sub-logo {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
-  padding-top: 45px;
+  /* padding-top: 45px; */
 }
 
 .menu-flex > .item {
