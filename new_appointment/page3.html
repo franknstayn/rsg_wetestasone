@@ -105,11 +105,14 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6 offset-lg-3 offset-lg-1 py-3">
+          <div class="col-md-6 offset-lg-3 py-3"> <!-- date only  -->
+          <!-- <div class="col-md-10 offset-lg-1 py-3"> --> <!-- with time -->
             <div class="card">
               <div class="card-body">
                 <div class="row h-100">
-                  <div class="col-md-12">
+                  
+                  <div class="col-md-12"> <!-- date only  -->
+                  <!-- <div class="col-md-6 left-side-content"> --> <!-- with time  -->
                     <div class="text-center calendar-container">
                       <div id="datepicker" data-date="08/05/2020"></div>
                       <div class="pt-3 form-row">
@@ -122,9 +125,62 @@
                       </div>
                     </div>
                   </div>
+
+                  <!-- <div class="col-md-6">  --> <!-- with time  -->
+                  <div class="col-md-6 time-hidden">  <!-- date only  -->
+                    <div class="timeslot-container">
+                      <div class="time-label">
+                        Time
+                      </div>
+                        <table class="w-100">
+                          <tr>
+                            <td>
+                              <input type="radio" name="timeSched" />
+                              10:00 - 11:00
+                            </td>
+                            <td class="text-right">
+                              <div class="available-color">Available</div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <input type="radio" name="timeSched" />
+                              10:00 - 11:00
+                            </td>
+                            <td class="text-right">
+                              <div class="available-color">Available</div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <input type="radio" name="timeSched" />
+                              10:00 - 11:00
+                            </td>
+                            <td class="text-right">
+                              <div class="available-color">Available</div>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <input type="radio" name="timeSched" />
+                              10:00 - 11:00
+                            </td>
+                            <td class="text-right">
+                              <div class="available-color">Available</div>
+                            </td>
+                          </tr>
+                        </table>
+                      <!-- </div> -->
+                    </div>
+                  </div>
+                  
                 </div>
               </div>
             </div>
+
             <div class="row py-3">
               <div class="col-lg-12">
                 <button type="button" class="btn btn-sm btn-custom-yellow float-right">next</button>

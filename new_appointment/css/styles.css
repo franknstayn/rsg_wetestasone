@@ -549,3 +549,7 @@ label {
 .input-otp{
   letter-spacing: 10px;
 }
+
+.time-hidden{
+  display: none;
+}
