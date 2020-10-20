@@ -13,14 +13,14 @@ body {
 /* Font downloaded from FontsForWeb.com */
 
 a {
-  color: #6bbddd;
+  /* color: #6bbddd; */
   transition: all 0.35s;
 }
 
-a:hover,
+/* a:hover,
 a:focus {
   color: #fcbd20;
-}
+} */
 
 hr {
   margin-top: 0px !important;
@@ -38,7 +38,7 @@ h4,
 h5,
 h6 {
   /* font-family: "GTWalsheim" !important; */
-  font-weight: 200;
+  /* font-weight: 200; */
   letter-spacing: 1px;
 }
 
@@ -255,6 +255,20 @@ header.about-us {
   opacity: 0.8;
 }
 
+header.login {
+  position: relative;
+  width: 100%;
+  /* padding-top: 150px; */
+  padding-bottom: 100px;
+  color: white;
+
+  background: linear-gradient( to bottom, rgb(255 255 255 / 40%) 0%, rgb(159 159 159 / 40%) 100% ), url(../assets/img/login-bg.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.8; */
+}
+
 
 section.learnmore-2 {
   position: relative;
@@ -334,14 +348,14 @@ header.registration {
 
 header.masthead .header-content,
 header.learnmore-1 .header-content,
-header.about-us .header-content {
+header.about-us .header-content, header.login .header-content {
   /* max-width: 500px; */
   /* margin-bottom: 100px; */
   text-align: center;
 }
 
 header.learnmore-1 .header-content,
-header.about-us .header-content {
+header.about-us .header-content, header.login .header-content {
   /* max-width: 500px; */
   margin-bottom: 0px;
   text-align: center;
@@ -436,6 +450,7 @@ section.learnmore .device-container .screen img {
   header.masthead,
   header.learnmore-1,
   header.about-us,
+  header.login,
   section .learnmore-2,
   section .learnmore-3,
   section .learnmore-4,
@@ -452,7 +467,8 @@ section.learnmore .device-container .screen img {
   section.learnmore .header-content,
   header.masthead .header-content,
   header.learnmore-1 .header-content,
-  header.about-us .header-content,
+  header.about-us .header-content, 
+  header.login .header-content,
   header.registration .header-content {
     margin-bottom: 0;
     text-align: left;
@@ -462,6 +478,7 @@ section.learnmore .device-container .screen img {
   header.masthead .header-content h1,
   header.learnmore-1 .header-content h1,
   header.about-us .header-content h1,
+  header.login .header-content h1,
   header.registration .header-content h1 {
     font-size: 7.5rem;
     /* font-family: "Bebas Neue", cursive; */
@@ -491,6 +508,13 @@ section.learnmore .device-container .screen img {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  header.login .header-content h2 {
+    font-size: 4rem;
+    line-height: 100px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
   header.masthead .header-content p {
     font-family: "Roboto", sans-serif !important;
   }
@@ -502,6 +526,12 @@ section.learnmore .device-container .screen img {
   }
 
   header.about-us .header-content p {
+    font-family: "Roboto", sans-serif !important;
+    margin-top: 100px;
+    font-size: 1.8rem !important;
+  }
+
+  header.login .header-content p {
     font-family: "Roboto", sans-serif !important;
     margin-top: 100px;
     font-size: 1.8rem !important;
@@ -776,11 +806,11 @@ footer ul li a.active {
   font-size: 1.7rem;
 }
 
-.card-body {
-  color: #808080 !important;
+/* .card-body { */
+  /* color: #808080 !important; */
   /* min-height: 411px !important; */
-  padding: 20px 0px 0px 0px !important;
-}
+  /* padding: 20px 0px 0px 0px !important; */
+/* } */
 
 .btn-back {
   min-width: 80px !important;
@@ -864,7 +894,8 @@ label {
   header.masthead .header-content h1,
   header.registration .header-content h1,
   header.learnmore-1 .header-content h1,
-  header.about-us .header-content h1 {
+  header.about-us .header-content h1,
+  header.login .header-content h1 {
     font-size: 3.5rem !important;
     /* font-family: "Bebas Neue", cursive; */
     /* line-height: 100px; */
@@ -1002,9 +1033,6 @@ section.learnmore-3 p {
   font-family: "Roboto", sans-serif !important;
 }
 
-.form-control-sm {
-  height: calc(1.5em + 0.5rem + 4px) !important;
-}
 
 input[type="text"],
 input[type="date"],
@@ -1029,4 +1057,39 @@ h2.title {
 
 img.logo{
   height: 80px;
+}
+
+.WTA2-logo {
+  width: 3rem;
+}
+.corporate-logo{
+  height: 65px;
+}
+
+.input-group-prepend {
+  height: 31px;
+}
+
+.btn-custom-blue1 {
+  color: #fff;
+  background-color: #3126ff;
+  border-color: #3126ff;
+}
+
+
+.btn-custom-blue1:hover {
+  color: #fff;
+  background-color: #443bfd;
+  /* font-weight: 600; */
+}
+
+.btn-custom-red {
+  color: #fff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+
+.btn-custom-red:hover {
+  background-color: #ee0606;
+  color: #fff;
 }
