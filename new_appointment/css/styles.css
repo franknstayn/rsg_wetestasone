@@ -553,3 +553,13 @@ label {
 .time-hidden{
   display: none;
 }
+
+.img-swabbing-location{
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.img-swabbing-location:nth-child(even) {
+  object-fit: contain;
+}
