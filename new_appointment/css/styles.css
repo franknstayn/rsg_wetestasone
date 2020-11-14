@@ -164,6 +164,10 @@ body {
   width: 12rem;
 }
 
+.WTA2-logo {
+  width: 3rem;
+}
+
 img.logo {
   height: 80px;
   /* height: 30px; */
@@ -280,6 +284,9 @@ img.sub-logo {
 
   .payment-logos{
     margin-top: 0px !important;
+  }
+  .corporate-logo-container{
+    display: inline-block !important;
   }
 }
 
@@ -562,4 +569,17 @@ label {
 
 .img-swabbing-location:nth-child(even) {
   object-fit: contain;
+}
+
+.corporate-logo-container{
+  display: flex;
+}
+
+.corporate-logo{
+  height: 65px;
+}
+
+h1.corporate-header{
+  font-size: 2.5rem;
+  letter-spacing: normal;
 }
